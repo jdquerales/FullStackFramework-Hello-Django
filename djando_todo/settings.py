@@ -26,7 +26,7 @@ SECRET_KEY = '2dcus6q!ijh@-+18*(^07$p)n#-j%ghejy^e$w8w)-5+r3kv+l'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['fsfd-todo-app.herokuapp.com/']
+ALLOWED_HOSTS = ['fsfd-todo-app.herokuapp.com']
 
 
 # Application definition
