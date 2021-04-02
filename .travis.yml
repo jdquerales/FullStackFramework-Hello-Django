@@ -2,7 +2,7 @@
 language: python
 # Set the python version to 3.8
 python:
-    - "3.6"
+    - "3.8"
 # Install the all dependencies
 install: 
     - "pip install -r requirements2.txt"
