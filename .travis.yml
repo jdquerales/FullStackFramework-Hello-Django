@@ -10,8 +10,8 @@ install:
     - pip install codecov
 # Run the unit test
 script:
-    - SECRET_KEY="placeholdersecret" python manage.py test
-    - SECRET_KEY="placeholdersecret" coverage run --source=todo manage.py test
+    - python manage.py test
+    - coverage run --source=todo manage.py test
 # Push the results back to codecov
 after_success:
     - codecov
